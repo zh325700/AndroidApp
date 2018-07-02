@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="be.kuleuven.softdev.hehuang.pokepelican.MainPage.MainFragment">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerviewcart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/refreshcart"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="30dp"
+            android:clickable="true"
+            app:backgroundTint="@color/perlicanyellow"
+            app:fabSize="mini"
+            app:layout_behavior="be.kuleuven.softdev.hehuang.pokepelican.ScrollAwareFABBehavior"
+            app:srcCompat="@drawable/ic_refresh_white_36dp" />
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

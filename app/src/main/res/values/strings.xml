@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">PokePelican</string>
+    <string name="text_main">Main</string>
+    <string name="text_category">Category</string>
+    <string name="text_cart">Cart</string>
+    <string name="text_profile">Profile</string>
+    <string name="MainText">This is what the MOST popular</string>
+    <string name="categoryText">Choose WHAT you want</string>
+    <string name="cartText">this is WHAT you choose</string>
+    <string name="profileText">change something</string>
+    <string name="action_changeLocation">Chang Location</string>
+    <string name="search">Search</string>
+    <string name="han_zhang">Han Zhang</string>
+    <string name="he_huang">He Huang</string>
+    <string name="smart">Electronics</string>
+    <string name="beauty">Beauty</string>
+    <string name="home">For home</string>
+    <string name="books">Books</string>
+    <string name="toys">Toys</string>
+    <string name="bike">Bikes</string>
+    <string name="facebook_app_id">1757369561260102</string>
+    <string name="fb_login_protocol_scheme">fb1757369561260102</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Leuven">Leuven</string>
+    <string name="Brussels">Brussels</string>
+    <string name="Antwerp">Antwerp</string>
+    <string name="searchbox">Search what you want</string>
+    <string-array name="Catagories">
+        <item> ELECTRONICS </item>
+        <item> BEAUTY </item>
+        <item> FOR HOME </item>
+        <item> BOOKS </item>
+        <item> TOYS </item>
+        <item> BIKES </item>
+        <item> Others </item>
+    </string-array>
+
+    <string-array name="Locations">
+        <item> Leuven </item>
+        <item> Antwerpen </item>
+        <item> Brussel </item>
+        <item> Others </item>
+
+    </string-array>
+
+
+</resources>

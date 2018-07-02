@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="0.05"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_weight="0.29"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/ButtonElectronics"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:drawablePadding="-15sp"
+                    android:drawableTop="@drawable/cell_phone_96"
+                    android:onClick="electronicsBotton"
+                    android:paddingTop="32sp"
+                    android:text="@string/smart"
+                    android:textColor="#000000"></Button>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/ButtonBeauty"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:drawablePadding="-15sp"
+                    android:drawableTop="@drawable/beauty"
+                    android:onClick="beautyBotton"
+                    android:paddingTop="32sp"
+                    android:text="@string/beauty"
+                    android:textColor="#000000"></Button>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="0.37"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/ButtonHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:drawablePadding="-15sp"
+                    android:drawableTop="@drawable/home_96"
+                    android:onClick="forhomeBotton"
+                    android:paddingTop="32sp"
+                    android:text="@string/home"
+                    android:textColor="#000000"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/ButtonBooks"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:drawablePadding="-15sp"
+                    android:drawableTop="@drawable/books_96"
+                    android:onClick="booksBotton"
+                    android:paddingTop="32sp"
+                    android:text="@string/books"
+                    android:textColor="#000000"></Button>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_weight="0.29"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/ButtonToys"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:drawablePadding="-15sp"
+                    android:drawableTop="@drawable/toys"
+                    android:onClick="toysBotton"
+                    android:paddingTop="32sp"
+                    android:text="@string/toys"
+                    android:textColor="#000000"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/ButtonBikes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:drawablePadding="-15sp"
+                    android:drawableTop="@drawable/bike"
+                    android:onClick="bikesBotton"
+                    android:paddingTop="32sp"
+                    android:text="@string/bike"
+                    android:textColor="#000000"></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
